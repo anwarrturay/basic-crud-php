@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 1rem;
+  min-height: 80vh;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-fields{
+  display: flex;
+  flex-direction: column;
+  background-color: #7673FB;
+  width: 70%;
+  margin-top: 2rem;
+  border-radius: 8px;
+  .input{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 1.5rem;
+  }
+  input{
+    width: 100%;
+    padding: .5rem 0;
+    margin-left: .5rem;
+    font: inherit;
+    outline: none;
+  }
+
+} 
+.signUp-btn{
+  padding: .5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1018DF;
+  color: #fff;
+  margin: 1.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
